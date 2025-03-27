@@ -5,6 +5,8 @@ This program simulates online shopping through the use of HTML, CSS, and JavaScr
 
 This program is a simulation of an online shopping website where you can buy a specified number of goods through a simple user interface and will then total up the goods bought and the total price of the purchase.
 
+---
+
 **Usage:**
 1. The website will load, giving the user 6 items to choose to buy. There should be an image, description, price, quantity dropdown, and buy button accompanying each item.
 2. The user can then choose a quantity to buy on any item of their choosing.
@@ -15,6 +17,8 @@ This program is a simulation of an online shopping website where you can buy a s
 7. The website will display the total price of the purchase, along with how many of each item was purchased.
 8. The user may continue to shop, or close the website.
 
+---
+
 **File structure:**
 
 index.html - This file contains the overall structure and order that the elements display.
@@ -24,6 +28,8 @@ style.css - This file helps give the website a polished, organized look. It is u
 main.js - This file contains the logic of the program. It holds all the variables and calculations that the website must run in order to give functionality to the purchasing system. This file is given responsibility over both the input and output of the file by using eventlisteners and DOM manipulation (through means such as innerhtml and getElementById()) allowing the program to generate the checkout button, calculate the total price, and display the purchasing overview.
 
 /images - This folder holds every image used within the program including each item's photo and the checkout button.
+
+---
 
 **Variable System:**
 
