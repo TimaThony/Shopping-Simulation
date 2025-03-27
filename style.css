@@ -1,0 +1,37 @@
+/*These first 4 classes are for organizing and designing the items' layout*/
+img.pdisplay { 
+    width: 300px; 
+    height: auto; 
+  }
+.desc {
+    font-size: 20px;
+    width:300px;
+}
+.price { 
+    font-size: 40px;
+    font-style: bold;
+}
+.container { /*This class is mostly used for separating the items into 3 columns*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-gap: 20px; /* Adjust as needed for spacing between items */
+}
+
+
+
+
+
+
+.center { /*centers div*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#checkOutButton { /*makes sure that checkout button does not have an extra background and is sized correctly*/
+    width: 250px;
+    height: auto;
+    border: none !important;
+    background: transparent !important;
+    cursor: pointer;
+}
