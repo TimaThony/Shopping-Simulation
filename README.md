@@ -2,6 +2,7 @@
 This program simulates online shopping through the use of HTML, CSS, and JavaScript.
 
 **Brief Overview:**
+
 This program is a simulation of an online shopping website where you can buy a specified number of goods through a simple user interface and will then total up the goods bought and the total price of the purchase.
 
 **Usage:**
@@ -15,6 +16,7 @@ This program is a simulation of an online shopping website where you can buy a s
 8. The user may continue to shop, or close the website.
 
 **File structure:**
+
 index.html - This file contains the overall structure and order that the elements display.
 
 style.css - This file helps give the website a polished, organized look. It is used to organize the items into 3 evenly spaced columns, as well as center the checkout button using Flexbox. It also contains styling attributes for the images, descriptions, and prices of goods.
@@ -24,6 +26,7 @@ main.js - This file contains the logic of the program. It holds all the variable
 /images - This folder holds every image used within the program including each item's photo and the checkout button.
 
 **Variable System:**
+
 The program uses object variables for each item, including 
 -scooter 
 -dogBed
